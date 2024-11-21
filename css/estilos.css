@@ -1,0 +1,30 @@
+.altura-img{
+    height: 150px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.tiempo-agotado{
+    color: red;
+    font-size: 18px;
+}
+
+.tablero div img:hover{
+    transform: scale(1.2);
+    box-shadow: -4px 3px 34px -6px rgba(82,82,241,0.3);
+}
+
+.fondo1, .fondo2, .fondo3{
+    background-image: url("/imagenes/fondojuego2.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.fondo2 {
+    background-image: url("/imagenes/fondojuego.jpg");
+}
+
+.fondo3 {
+    background-image: url("/imagenes/fondojuego3.jpg");
+}
+
